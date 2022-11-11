@@ -12,4 +12,4 @@ python RANSAC.py
 ```
 python RANSAC_Plane.py
 ```
-![image](https://github.com/shivakumar-tekumatla/RANSAC/blob/main/figure_1.png)
+![image](https://github.com/shivakumar-tekumatla/RANSAC/blob/main/Figure_1.png)
