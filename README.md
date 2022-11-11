@@ -8,3 +8,7 @@ python RANSAC.py
 
 ``` 
 ![image](https://github.com/shivakumar-tekumatla/RANSAC/blob/main/output.png)
+
+```
+python RANSAC_Plane.py
+```
