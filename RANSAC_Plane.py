@@ -39,6 +39,7 @@ def RANSAC(X,itr=5000,threshold=500):
             if d<threshold:
                 inliers+=1 # finding out the inliers that satisfy the distance condition
         if inliers > n:
+            n = inliers
             Abest = A
             Bbest = B
             Cbest = C
