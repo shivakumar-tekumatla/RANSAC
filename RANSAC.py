@@ -26,6 +26,7 @@ def RANSAC(X,itr=200,threshold=20):
             if d<threshold:
                 inliers+=1 # finding out the inliers that satisfy the distance condition
         if inliers > n:
+            n = inliers
             p1_best = p1
             p2_best  = p2 
     if inliers > 0:
